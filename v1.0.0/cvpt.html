@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Vinicius - Português</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://kit.fontawesome.com/2fe0ba9e3a.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>   
+    <section><!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large w3-hide-xlarge">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none"><i class="fa-solid fa-house-user"></i> CURRICULUM VITAE ></a>
+        <a href="cvpt.html" class="w3-bar-item w3-button w3-hover-none">PT</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-none">EN</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+        
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-border-bottom" onclick="toggleNavigation()">ABOUT</a>
+        
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-border-bottom" onclick="toggleNavigation()">RESUME</a>
+        
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-border-bottom" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+    </section>
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar_vin.png" class="w3-circle w3-border w3-border-light-blue w3-opacity w3-hover-opacity-off" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-light-blue w3-hover-text-deep-orange" href="https://www.facebook.com/vinoliveira" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-light-blue w3-hover-text-deep-orange" href="https://twitter.com/vinquantic" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-light-blue w3-hover-text-deep-orange" href="https://www.linkedin.com/in/vinqubit/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./CV-Vinicius-Pt.pdf" class="w3-light-blue w3-button w3-round-xlarge w3-hover-deep-orange w3-padding-large" target="_blank" download="CV-Vinicius-Pt.pdf">
+            <i data-feather="download" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">BAIXAR CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        
+        <!--DESKTOP NAVIGATION-->
+        <div class="desktopnav w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-text-blue-gray w3-hover-border-light-blue" style="border-width: 2px !important;"><i class="fa-solid fa-house-user"></i> CURRICULUM VITAE ></a>
+
+          <a href="cvpt.html" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-text-blue-gray w3-hover-border-light-blue" style="border-width: 2px !important;"> PT</a>
+          <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-text-blue-gray w3-hover-border-light-blue" style="border-width: 2px !important;"> EN</a>
+          
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-deep-orange w3-hover-text-blue-gray w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTATO</a>
+          
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-deep-orange w3-hover-text-blue-gray w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CURRÍCULO</a>
+          
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-deep-orange w3-hover-text-blue-gray w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SOBRE</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="color: slategray;font-style: italic; font-size:x-large;">"A mente é o limite. Quando você enfrenta suas lutas, você as supera." <i class="fa-solid fa-rocket"></i></p>
+            <hr>
+            <h1>Vinicius Oliveira (39)</h2>
+            <h2>Web designer | Junior Fontend</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-light-blue" style="border-width: 3px !important;"><i class="fa-solid fa-user-astronaut" style="vertical-align: -0.01em;"></i> SOBRE</h2>
+            <p class="w3-margin-top-2"> 
+              Sempre fui atraído por arte e tecnologia. Acredito que isso me levou a estudar Desenho Industrial. Com mais de 9 anos de experiência em design gráfico, participei de projetos de branding, campanhas publicitárias, merchandising (embalagens/materiais POP) e projetos web2 (sites, dashboards, landing pages, email marketing, banners).
+            </p>
+            <p class="w3-margin-top-2">
+              Por isso tenho agora uma vasta experiência em criação on-line/off-line; Totalmente familiarizado com o ecossistema Adobe (PS, AI, ID). Atualmente engajado em Desenvolvimento Web Front-end: HTML5, CSS3, Bootstrap, W3CSS, Figma, JavaScript, Frameworks como React, CMS (WordPress + Elementor / Wix), Ecommerce... estudando para mergulhar em web3 (Blockchain, NFT, DApps).
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-light-blue" style="border-width: 3px !important;"><i class="fa-solid fa-file-invoice" style="vertical-align: -0.01em;"></i> CURRÍCULO</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+              <div class="">
+                <h4>Web/Graphic designer na Customize Nation</h4>
+                <p style="color: slategray;font-style: italic;">Gozo, Malta | Outubro 2020 - Maio 2021</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Criação de artes e mockups para roupas e presentes personalizados</li>
+                  <li>Criação de conteúdo engajador de texto, imagem e vídeo para todas as mídias sociais e plataforma de comércio eletrônico</li>
+                  <li>Monitoramento e fornecimento de feedback sobre engajamento/conversão por meio de canais de mídia social para a liderança</li>
+                  <li><a class="linkexph" href="http://www.cusnation.com" target="_blank">cusnation.com</a></li>
+                </ul>
+              </div>
+              <br>
+
+              <div class="">
+                <h4>Web designer na Natur Adventures</h4>
+                <p style="color: slategray;font-style: italic;">Florianópolis, Brasil | Março 2018 - Junho 2019</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Criação e fornecimento de texto engajador, SEO, conteúdo de imagem e vídeo para todas as mídias sociais e web site</li>
+                  <li>Garantir que o conteúdo publicado atenda às diretrizes da marca e aos estilos gerais de comunicação</li>
+                  <li>Garantir que a taxa de crescimento do público esteja aumentando por meio de redes sociais e site</li>
+                  <li><a class="linkexph" href="http://www.naturadventures.com" target="_blank">naturadventures.com</a></li>
+                </ul>
+              </div>
+              <br>
+
+              <div class="">
+                <h4> UI/UX Designer na Daniel Rothier</h4>
+                <p style="color: slategray;font-style: italic;">Rio de Janeiro, Brasil | Julho 2016 - Agosto 2016</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Criação de conceitos visuais para interfaces web a fim de criar melhor experiência para os usuários</li>
+                  <li>Criação e edição de wireframes de acordo com os padrões de usabilidade e acessibilidade, criando uma boa experiência para o usuário</li>
+                  <li>Fornecimento de arquivos psd cortados e organizados, fontes e todos os recursos relevantes para o desenvolvedor frontend começar a construir a aplicação</li>
+                  <li><a class="linkexph" href="https://danielrothier.com/" target="_blank">danielrothier.com</a></li>
+                </ul>
+              </div>
+              <br>
+
+              <div class="">
+                <h4> Designer Gráfico na Art Contrast</h4>
+                <p style="color: slategray;font-style: italic;">São Paulo, Brasil | Maio 2014 - Novembro 2014</p>
+                <p style="color: slategray;font-style: italic;">São Paulo, Brasil | Setembro 2011 - Março 2013</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Dentro de uma grande equipe criamos e finalizamos campanhas de merchandising lucrativas para gigantes da indústria de bens de consumo, líderes globais em bebidas alcoólicas, tecnologia e jogos</li>
+                  <li>Garantir que as artes finais atendam às diretrizes da marca e estilos gerais de comunicação, antes de enviar para a gráfica</li>
+                  <li><a class="linkexph" href="https://artcontrast.com.br" target="_blank">artcontrast.com.br</a></li>
+                </ul>
+              </div>
+              <br>
+          
+              
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber"><i class="fa-solid fa-user-graduate" style="vertical-align: -0.01em;"></i> FORMAÇÃO</h3>
+                <h4>DESENVOLVIMENTO WEB (Frontend and Backend), Udemy</h4>
+                <p style="color: slategray;font-style: italic;">Online > ongoing  <a class="linkexph" href="https://www.udemy.com/course/web-completo/" target="_blank">ver conteúdo do curso</a></p>
+
+                <h4>Bacharelado em desenho industrial, ênfase em programação visual, Universidade São Judas Tadeu</h4>
+                <p style="color: slategray;font-style: italic;">São Paulo, 2003 - 2009</p>
+            </div>
+
+            <!---LANGUAGES SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">IDIOMAS</h3>
+                  <h5 class="linkexph"> Português - Nativo</h5>
+                  <h5 class="linkexph"> Inglês - Avançado</h5>
+                  <h5 class="linkexph"> Espanhol - Intermediário</h5>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3>HABILIDADES</h3>
+              <!--SOFT SKILLS-->
+              <h4>Comportamentais</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Independente e capaz de gerenciar minha própria rotina de trabalho</li>
+                <li>Apaixonado por um ótimo design de sites, com uma forte atenção aos detalhes em relação ao layout, tipografia, cor e imagens</li>
+                <li>Personalidade gentil e honesta</li>
+                <li>Trabalho em equipe</li>
+                <li>Fortes habilidades de escrita e comunicador proativo</li>
+                <li>Autonomia na busca de soluções</li>
+                <li> Comprometidos com prazos e qualidade na entrega</li>
+                <li>Apetite para continuar aprendendo, desenvolvendo e melhorando</li>
+                <br>
+              </ul>
+              <hr>
+              <!--TECHNICAL SKILLS-->
+              <h4>Técnicas</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Adobe ecossystem: photoshop, illustrator</li>
+                  <li>Forte conhecimento de HTML5, CSS3 e JavaScript</li>
+                  <li>Edição e gerenciamento de CMS (WordPress + Elementor / Wix)</li>
+                  <li>Bom entendimento de frameworks e bibliotecas front-end (React, jQuery, Bootstrap, W3)</li>
+                  <li>Familiaridade com as melhores práticas de usabilidade, otimização de conversão e acessibilidade</li>
+                  <li>Compreensão clara dos princípios do design thinking</li>
+                  <li>Sólida compreensão dos princípios de design gráfico</li>
+                  <li>Conhecimento de alguns princípios de SEO</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">HOBBIES E INTERESSES</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Eu amo patricar montanhismo no meu tempo livre</li>
+                  <li>Além disso, assistir a filmes, séries e documentários</li>
+                  <li>Apaixonado por física e astronomia</li>
+                  <li>Viajar por este planeta maravilhoso</li>
+                  <li>Invistir e estudar sobre o mercado de criptomoedas e tecnologias blockchain</li>
+                </ul>
+            </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-light-blue" style="border-width: 3px !important;"><i class="fa-solid fa-address-card"></i> DADOS PARA CONTATO</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Nome: Vinicius Oliveira</p>
+              <p>Localização: São Paulo, Brasil</p>
+              <p>Telefone: +55 11 91480-5221</p>
+              <p>E-mail: vinqubit@protonmail.com</p>
+              <br>
+              <a href="mailto:vinqubit@protonmail.com" class="w3-light-blue w3-button w3-round-xlarge w3-hover-deep-orange w3-padding-large" target="_blank">
+              <i data-feather="plus-circle" style="vertical-align: -0.35em;"></i>
+              <span class="w3-margin-left download-text">AGENDE UMA ENTREVISTA</span>
+              </a>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <footer style="margin-top:100px" class="w3-container w3-border-top w3-center w3-margin-top-2">
+          <p>2022 Vinicius Oliveira (W3Schools) - por VinQubit</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    
+    
+  <script>
+  // Function to toggle mobile navigation
+    function toggleNavigation() {
+    let nav = document.getElementById("mobile-nav");
+    if (nav.classList.contains('w3-show')) {
+        nav.classList.remove('w3-show');
+      } else { 
+        nav.classList.add('w3-show');
+      }
+  }
+  </script>
+  <script>
+  // Script to load feather icons
+      feather.replace()
+  </script>
+ </body>
+</html>
